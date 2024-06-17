@@ -1,0 +1,1453 @@
+Command: ls -l
+Output:
+total 84
+-rw-r--r-- 1 root root    0 iun 17 18:54 command_log.txt
+-rw-r--r-- 1 root root   16 iun 17 18:57 cpu
+-rw-r--r-- 1 root root  110 iun 17 18:57 gpu
+-rw-r--r-- 1 root root 4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root 8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root 4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root 2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root 2732 iun 17 18:48 index.html
+-rw-r--r-- 1 root root    1 iun 17 18:17 log
+-rw-r--r-- 1 root root   23 iun 17 18:57 mem
+-rw-r--r-- 1 root root    0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root  343 iun 17 18:57 partition
+-rw-r--r-- 1 root root  260 iun 17 18:57 proc
+-rw-r--r-- 1 root root  390 iun 17 18:53 run_command.php
+-rwxr--r-- 1 root root    3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root 3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root 3395 iun 17 18:47 scripts.js
+-rw-r--r-- 1 root root 1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root  559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root   62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 88
+-rw-r--r-- 1 root root 1039 iun 17 18:57 command_log.txt
+-rw-r--r-- 1 root root   15 iun 17 18:58 cpu
+-rw-r--r-- 1 root root  110 iun 17 18:58 gpu
+-rw-r--r-- 1 root root 4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root 8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root 4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root 2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root 2732 iun 17 18:48 index.html
+-rw-r--r-- 1 root root    1 iun 17 18:17 log
+-rw-r--r-- 1 root root   23 iun 17 18:58 mem
+-rw-r--r-- 1 root root    0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root  343 iun 17 18:58 partition
+-rw-r--r-- 1 root root  260 iun 17 18:58 proc
+-rw-r--r-- 1 root root  390 iun 17 18:53 run_command.php
+-rwxr--r-- 1 root root    3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root 3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root 3395 iun 17 18:47 scripts.js
+-rw-r--r-- 1 root root 1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root  559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root   62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 88
+-rw-r--r-- 1 root root 2078 iun 17 18:58 command_log.txt
+-rw-r--r-- 1 root root   15 iun 17 18:59 cpu
+-rw-r--r-- 1 root root  110 iun 17 18:59 gpu
+-rw-r--r-- 1 root root 4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root 8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root 4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root 2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root 2732 iun 17 18:48 index.html
+-rw-r--r-- 1 root root    1 iun 17 18:17 log
+-rw-r--r-- 1 root root   23 iun 17 18:59 mem
+-rw-r--r-- 1 root root    0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root  343 iun 17 18:59 partition
+-rw-r--r-- 1 root root  260 iun 17 18:59 proc
+-rw-r--r-- 1 root root  390 iun 17 18:53 run_command.php
+-rwxr--r-- 1 root root    3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root 3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root 3395 iun 17 18:47 scripts.js
+-rw-r--r-- 1 root root 1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root  559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root   62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 88
+-rw-r--r-- 1 root root 3117 iun 17 18:59 command_log.txt
+-rw-r--r-- 1 root root   15 iun 17 18:59 cpu
+-rw-r--r-- 1 root root  110 iun 17 18:59 gpu
+-rw-r--r-- 1 root root 4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root 8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root 4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root 2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root 2732 iun 17 18:48 index.html
+-rw-r--r-- 1 root root    1 iun 17 18:17 log
+-rw-r--r-- 1 root root   23 iun 17 18:59 mem
+-rw-r--r-- 1 root root    0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root  343 iun 17 18:59 partition
+-rw-r--r-- 1 root root  260 iun 17 18:59 proc
+-rw-r--r-- 1 root root  390 iun 17 18:53 run_command.php
+-rwxr--r-- 1 root root    3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root 3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root 3395 iun 17 18:47 scripts.js
+-rw-r--r-- 1 root root 1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root  559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root   62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls
+Output:
+command_log.txt
+cpu
+gpu
+index2
+index3
+index4
+index6
+index.html
+log
+mem
+output.txt
+partition
+proc
+run_command.php
+run_command.sh
+scripts2
+scripts.js
+styles.css
+update.sh
+write_to_log.sh
+
+
+Command: ls
+Output:
+command_log.txt
+cpu
+gpu
+index2
+index3
+index4
+index6
+index.html
+log
+mem
+output.txt
+partition
+proc
+run_command.php
+run_command.sh
+scripts2
+scripts.js
+styles.css
+update.sh
+write_to_log.sh
+
+
+Command: ls
+Output:
+command_log.txt
+cpu
+gpu
+index2
+index3
+index4
+index6
+index.html
+log
+mem
+output.txt
+partition
+proc
+run_command.php
+run_command.sh
+scripts2
+scripts.js
+styles.css
+update.sh
+write_to_log.sh
+
+
+Command: pwd
+Output:
+/var/www/html
+
+
+Command: ls -l
+Output:
+total 96
+-rw-r--r-- 1 root root 4814 iun 17 19:04 command_log.txt
+-rw-r--r-- 1 root root   15 iun 17 19:04 cpu
+-rw-r--r-- 1 root root  110 iun 17 19:04 gpu
+-rw-r--r-- 1 root root 4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root 8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root 4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root 2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root 2732 iun 17 18:48 index.html
+-rw-r--r-- 1 root root    1 iun 17 18:17 log
+-rw-r--r-- 1 root root   23 iun 17 19:04 mem
+-rw-r--r-- 1 root root    0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root  343 iun 17 19:04 partition
+-rw-r--r-- 1 root root  260 iun 17 19:04 proc
+-rw-r--r-- 1 root root  548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root    3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root 3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root 4276 iun 17 19:01 scripts.js
+-rw-r--r-- 1 root root 1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root  559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root   62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls
+Output:
+command_log.txt
+cpu
+gpu
+index2
+index3
+index4
+index6
+index7
+index.html
+log
+mem
+output.txt
+partition
+proc
+run_command.php
+run_command.sh
+scripts2
+scripts.js
+styles.css
+update.sh
+write_to_log.sh
+
+
+Command: pwd
+Output:
+/var/www/html
+
+
+Command: pwd
+Output:
+/var/www/html
+
+
+Command: cd 
+Output:
+
+
+Command: ls
+Output:
+command_log.txt
+cpu
+gpu
+index2
+index3
+index4
+index6
+index7
+index.html
+log
+mem
+output.txt
+partition
+proc
+run_command.php
+run_command.sh
+scripts2
+scripts.js
+styles.css
+update.sh
+write_to_log.sh
+
+
+Command: shutdown
+Output:
+Shutdown scheduled for Mon 2024-06-17 19:06:45 EEST, use 'shutdown -c' to cancel.
+
+
+Command: shutdown -c
+Output:
+
+
+Command: shutdown -s 0
+Output:
+shutdown: invalid option -- 's'
+
+
+Command: poweroff
+Output:
+
+
+Command: ls
+Output:
+command_log.txt
+cpu
+gpu
+index2
+index3
+index4
+index6
+index7
+index.html
+log
+mem
+output.txt
+partition
+proc
+run_command.php
+run_command.sh
+scripts2
+scripts.js
+styles.css
+update.sh
+write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 100
+-rw-r--r-- 1 root root 6826 iun 17 19:07 command_log.txt
+-rw-r--r-- 1 root root   15 iun 17 19:08 cpu
+-rw-r--r-- 1 root root  110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root 4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root 8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root 4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root 2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root 2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root 2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root    1 iun 17 18:17 log
+-rw-r--r-- 1 root root   23 iun 17 19:08 mem
+-rw-r--r-- 1 root root    0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root  343 iun 17 19:08 partition
+-rw-r--r-- 1 root root  260 iun 17 19:08 proc
+-rw-r--r-- 1 root root  548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root    3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root 3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root 4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root 1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root  559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root   62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 100
+-rw-r--r-- 1 root root 7914 iun 17 19:08 command_log.txt
+-rw-r--r-- 1 root root   16 iun 17 19:09 cpu
+-rw-r--r-- 1 root root  110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root 4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root 8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root 4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root 2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root 2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root 2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root    1 iun 17 18:17 log
+-rw-r--r-- 1 root root   23 iun 17 19:09 mem
+-rw-r--r-- 1 root root    0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root  343 iun 17 19:09 partition
+-rw-r--r-- 1 root root  260 iun 17 19:09 proc
+-rw-r--r-- 1 root root  548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root    3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root 3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root 4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root 1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root  559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root   62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 104
+-rw-r--r-- 1 root root 9002 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root   15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root  110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root 4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root 8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root 4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root 2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root 2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root 2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root    1 iun 17 18:17 log
+-rw-r--r-- 1 root root   23 iun 17 19:09 mem
+-rw-r--r-- 1 root root    0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root  343 iun 17 19:09 partition
+-rw-r--r-- 1 root root  260 iun 17 19:09 proc
+-rw-r--r-- 1 root root  548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root    3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root 3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root 4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root 1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root  559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root   62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 104
+-rw-r--r-- 1 root root 10090 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 104
+-rw-r--r-- 1 root root 11199 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 108
+-rw-r--r-- 1 root root 12308 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 108
+-rw-r--r-- 1 root root 13417 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 108
+-rw-r--r-- 1 root root 14526 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 108
+-rw-r--r-- 1 root root 15635 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 112
+-rw-r--r-- 1 root root 16744 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 112
+-rw-r--r-- 1 root root 17853 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 112
+-rw-r--r-- 1 root root 18962 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 112
+-rw-r--r-- 1 root root 20071 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    16 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 116
+-rw-r--r-- 1 root root 21180 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    16 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 116
+-rw-r--r-- 1 root root 22289 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 116
+-rw-r--r-- 1 root root 23398 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 116
+-rw-r--r-- 1 root root 24507 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 120
+-rw-r--r-- 1 root root 25616 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 120
+-rw-r--r-- 1 root root 26725 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 120
+-rw-r--r-- 1 root root 27834 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 124
+-rw-r--r-- 1 root root 28943 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 124
+-rw-r--r-- 1 root root 30052 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 124
+-rw-r--r-- 1 root root 31161 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 124
+-rw-r--r-- 1 root root 32270 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    22 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 128
+-rw-r--r-- 1 root root 33379 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 128
+-rw-r--r-- 1 root root 34488 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 128
+-rw-r--r-- 1 root root 35597 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 128
+-rw-r--r-- 1 root root 36706 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 132
+-rw-r--r-- 1 root root 37815 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 132
+-rw-r--r-- 1 root root 38924 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 132
+-rw-r--r-- 1 root root 40033 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 136
+-rw-r--r-- 1 root root 41142 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 136
+-rw-r--r-- 1 root root 42251 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 136
+-rw-r--r-- 1 root root 43360 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    22 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 136
+-rw-r--r-- 1 root root 44469 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    22 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 140
+-rw-r--r-- 1 root root 45578 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 140
+-rw-r--r-- 1 root root 46687 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 140
+-rw-r--r-- 1 root root 47796 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 140
+-rw-r--r-- 1 root root 48905 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 144
+-rw-r--r-- 1 root root 50014 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 144
+-rw-r--r-- 1 root root 51123 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 144
+-rw-r--r-- 1 root root 52232 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    15 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 148
+-rw-r--r-- 1 root root 53341 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    16 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    22 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+
+Command: ls -l
+Output:
+total 148
+-rw-r--r-- 1 root root 54450 iun 17 19:09 command_log.txt
+-rw-r--r-- 1 root root    16 iun 17 19:09 cpu
+-rw-r--r-- 1 root root   110 iun 17 19:06 gpu
+-rw-r--r-- 1 root root  4539 iun 17 17:50 index2
+-rw-r--r-- 1 root root  8088 iun 17 17:50 index3
+-rw-r--r-- 1 root root  4882 iun 17 17:58 index4
+-rw-r--r-- 1 root root  2407 iun 17 18:11 index6
+-rw-r--r-- 1 root root  2732 iun 17 18:48 index7
+-rw-r--r-- 1 root root  2731 iun 17 19:04 index.html
+-rw-r--r-- 1 root root     1 iun 17 18:17 log
+-rw-r--r-- 1 root root    23 iun 17 19:09 mem
+-rw-r--r-- 1 root root     0 iun 17 18:43 output.txt
+-rw-r--r-- 1 root root   343 iun 17 19:09 partition
+-rw-r--r-- 1 root root   260 iun 17 19:09 proc
+-rw-r--r-- 1 root root   548 iun 17 19:00 run_command.php
+-rwxr--r-- 1 root root     3 iun 17 18:44 run_command.sh
+-rw-r--r-- 1 root root  3515 iun 17 18:16 scripts2
+-rw-r--r-- 1 root root  4413 iun 17 19:05 scripts.js
+-rw-r--r-- 1 root root  1755 iun 17 18:03 styles.css
+-rw-r--r-- 1 root root   559 iun 17 17:26 update.sh
+-rwxr--r-- 1 root root    62 iun 17 18:13 write_to_log.sh
+
+

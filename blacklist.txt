@@ -1,0 +1,48 @@
+rm
+sudo
+shutdown
+reboot
+poweroff
+init 0
+init 6
+halt
+dd
+mkfs
+fdisk
+:(){:|:&};:
+<<
+&>
+>/dev/null
+>/dev/zero
+>/dev/random
+>|
+2>&1
+wget
+curl
+ftp
+scp
+sftp
+rsync
+chmod
+chown
+kill
+killall
+pkill
+nohup
+xargs
+perl
+python
+php
+ruby
+gcc
+g++
+make
+nano
+vi
+vim
+emacs
+cat /dev/mem
+cat /dev/kmem
+/sbin/reboot
+/sbin/shutdown
+
