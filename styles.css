@@ -1,33 +1,21 @@
-.button-kill {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    cursor: pointer;
-    border: 3px solid #1a2a6c; /* Dark blue border */
-    padding: 0.25em 0.5em;
-    box-shadow: 1px 1px 0px 0px #000, 2px 2px 0px 0px #000, 3px 3px 0px 0px #000, 4px 4px 0px 0px #000, 5px 5px 0px 0px #000;
-    position: relative;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    background: linear-gradient(135deg, #0d1b4c, #0a0e23); /* Dark blue gradient */
-}
 
-        .commandInput {
-            width: calc(100% - 24px);
-            padding: 12px;
-            margin-bottom: 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
+.commandInput {
+	width: calc(100% - 24px);
+        padding: 12px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
         }
 
 body {
-    	font-family: Arial, sans-serif;
+	font-family: "Open Sans", sans-serif;
+	text-align:center;
+	font-size: 16px;
+    	text-decoration: none;
+	color: black;
     	margin: 20px;
+	margin-bottom: 100px;
      	background: rgb(2,0,36);
 	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,19,81,1) 12%, rgba(9,60,104,1) 25%, rgba(61,111,185,1) 50%, rgba(20,44,109,1) 75%, rgba(24,24,75,1) 87%, rgba(23,24,92,1) 100%); 
 	color: #fff;
@@ -44,11 +32,11 @@ th, td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
-    color: #fff; /* White text for better contrast */
+    color: #eeeeee;
 }
 
 th {
-    background-color: #1a2a6c; /* Dark blue background */
+    background-color: #1a2a6c;
 }
 
 h2 {
@@ -64,7 +52,7 @@ h2 {
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
-    border: 3px solid #1a2a6c; /* Dark blue border */
+    border: 3px solid #1a2a6c; 
     padding: 0.25em 0.5em;
     box-shadow: 1px 1px 0px 0px #000, 2px 2px 0px 0px #000, 3px 3px 0px 0px #000, 4px 4px 0px 0px #000, 5px 5px 0px 0px #000;
     position: relative;
@@ -74,25 +62,28 @@ h2 {
     background: linear-gradient(135deg, #0d1b4c, #0a0e23); /* Dark blue gradient */
 }
 
- 	#command {
-            background-color: #00204a;
-            padding: 5px;
-            border-radius: 5px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        #command h2 {
-            color: #fff;
-            margin-bottom: 6px;
-        }
-        #commandInput {
-            width: calc(100% - 24px);
-            padding: 12px;
-            margin-bottom: 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-        .button-54 {
+#command {
+    background-color: #00204a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#command h2 {
+    color: #fff;
+    margin-bottom: 6px;
+}
+        
+#commandInput {
+ 	width: calc(100% - 24px);
+	padding: 12px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+}
+        
+.button-54 {
             width: 100%;
             padding: 15px;
             background-color: #4CAF50;
@@ -102,7 +93,143 @@ h2 {
             font-size: 16px;
             cursor: pointer;
             transition: background-color 0.3s ease;
-        }
-        .button-54:hover {
-            background-color: #45a049;
-        }
+}
+
+.button-54:hover {
+            background-color: #328da8;
+    }
+
+#addTaskForm {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #1a2a6c; 
+    color: #fff;
+    position: fixed;
+    top: 130px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 1000px; 
+}
+
+#deleteTaskForm {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #1a2a6c; 
+    color: #fff;
+    position: fixed;
+    top: 53.5%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 1000px; 
+}
+
+#printTaskForm {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #1a2a6c; 
+    color: #fff; 
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1000px;
+}
+
+
+#addTaskForm label, #deleteTaskForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#addTaskForm input[type="text"],
+#addTaskForm input[type="datetime-local"],
+#deleteTaskForm input[type="number"] {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#addTaskForm button, #deleteTaskForm button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff; 
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+#addTaskForm button:hover, #deleteTaskForm button:hover {
+    background-color: #0d1b4c; 
+}
+
+#addTaskForm button:first-child, #deleteTaskForm button:first-child {
+    margin-right: 10px;
+}
+
+.goback-button {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px; 
+    color: #fff;
+    cursor: pointer;
+
+}
+
+#taskTable {
+    margin-top:300px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#taskList {
+    top:60%;
+    width: 100%; 
+    overflow-y: auto; 
+    max-height: 300px;
+}
+
+#taskList tr {
+
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+#taskList tr:nth-child(even) {
+
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#taskList tr:hover {
+
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+
+#taskList td {
+ 
+    padding: 10px; 
+    color: #fff; 
+}
+
+#taskList th {
+
+    background-color: #1a2a6c;
+    color: #fff; 
+    padding: 10px; 
+}
+

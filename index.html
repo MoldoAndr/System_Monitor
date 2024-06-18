@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real-Time System Information</title>
+    <title>System Monitor</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="processor">
+
+	<div id="processor">
         <h2>Processor Information:</h2>
         <table id="cpuTable">
             <thead>
                 <tr>
-                    <th>Property</th>
-                </tr>
+		    <th>MODEL</th>
+                    <th>USAGE</th>
+                    <th>FREQ</th>
+		    <th>CORES</th>
+		</tr>
             </thead>
             <tbody>
                 <tr>
@@ -23,64 +27,67 @@
         </table>
     </div>
 
-    <div id="memory">
-        <h2>Memory Information:</h2>
-        <table id="memTable">
-            <thead>
-                <tr>
-                    <th>Property</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Loading memory info...</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
 
-    <div id="processes">
-        <h2>Processes Information:</h2>
-        <table id="procTable">
-            <thead>
-                <tr>
-                    <th>PID</th>
-                    <th>PPID</th>
-                    <th>%CPU</th>
-                    <th>%Memory</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="5">Loading processes info...</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+<div id="memory">
+    <h2>Memory Information:</h2>
+    <table id="memTable">
+        <thead>
+            <tr>
+            	<th>TOTAL RAM</th>
+		<th>USAGE</th>
+	   	<th>FREQ</th>	
+	</tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Loading memory info...</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-    <div id="partition">
-        <h2>Partition Information:</h2>
-        <table id="partitionTable">
-            <thead>
-                <tr>
-                    <th>Filesystem</th>
-                    <th>Size</th>
-                    <th>Used</th>
-                    <th>Available</th>
-                    <th>Use%</th>
-                    <th>Mounted on</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td colspan="6">Loading partition info...</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+<div id="processes">
+    <h2>Processes Information:</h2>
+    <table id="procTable">
+        <thead>
+            <tr>
+                <th>PID</th>
+                <th>PPID</th>
+                <th>%CPU</th>
+                <th>%Memory</th>
+    	    <th>Name</th>
+	</tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="5">Loading processes info...</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-    <div id="temperature">
+<div id="partition">
+    <h2>Partition Information:</h2>
+    <table id="partitionTable">
+        <thead>
+            <tr>
+                <th>Filesystem</th>
+                <th>Size</th>
+                <th>Used</th>
+                <th>Available</th>
+                <th>Use%</th>
+                <th>Mounted on</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="6">Loading partition info...</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+   <div id="temperature">
         <h2>Temperature Information:</h2>
         <table id="tempTable">
             <thead>
@@ -97,29 +104,32 @@
         </table>
     </div>
 
-    <div id="command">
-        <h2>Run Command:</h2>
-        <input type="text" id="commandInput" placeholder="Enter command...">
-        <button class="button-54" onclick="runCommand()">Run Command</button>
-    </div>
+            <button style="margin: 40px auto; font-family: 'Open Sans', sans-serif; font-size: 16px; letter-spacing: 2px; text-decoration: none; text-transform: uppercase; color: #fff; cursor: pointer; border: 3px solid #1a2a6c; padding: 0.25em 0.5em; box-shadow: 1px 1px 0px 0px #000, 2px 2px 0px 0px #000, 3px 3px 0px 0px #000, 4px 4px 0px 0px #000, 5px 5px 0px 0px #000; background: linear-gradient(135deg, #0d1b4c, #0a0e23); transition: background-color 0.3s ease; display: block; width: 1000px; height: 60px; margin: 10 auto;" onclick="window.location.href='task_scheduler.html';">Task Scheduler</button>
 
-    <div id="commandOutput">
-        <h2>Command Output:</h2>
-        <table id="outputTable">
-            <thead>
-                <tr>
-                    <th>Output</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>No output yet...</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
 
-    <script src="scripts.js"></script>
+<div id="command">
+    <input type="text" id="commandInput" placeholder="Enter command...">
+    <button class="button-54" onclick="runCommand()">Run Command</button>
+</div>
+
+<div id="commandOutput">
+    <h2>Command Output:</h2>
+    <table id="outputTable">
+        <thead>
+            <tr>
+                <th>Output</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>No output yet...</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="scripts.js"></script>
+
+
 </body>
 </html>
-
