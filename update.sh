@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo dmidecode -t system | grep "System Information" --after-context=8 | tail -n +2 > model
+
 get_processor_info() {
     model=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | cut -d ':' -f 2 | sed 's/^ *//')
     model=$(echo $model | tr ' ' '_' )

@@ -1,7 +1,9 @@
-tmpfs           2,8G  5,1M  2,8G   1% /run
-/dev/nvme0n1p6  192G   35G  147G  20% /
-tmpfs            14G     0   14G   0% /dev/shm
+tmpfs           2,8G   11M  2,8G   1% /run
+/dev/nvme0n1p6  192G   39G  144G  21% /
+tmpfs            14G  6,8M   14G   1% /dev/shm
 tmpfs           5,0M  4,0K  5,0M   1% /run/lock
-efivarfs        326K  250K   72K  78% /sys/firmware/efi/efivars
+efivarfs        326K  251K   71K  79% /sys/firmware/efi/efivars
 /dev/nvme0n1p1   96M   40M   57M  42% /boot/efi
-tmpfs           2,8G  144K  2,8G   1% /run/user/1000
+tmpfs           2,8G  1,7M  2,8G   1% /run/user/1000
+tmpfs            14G     0   14G   0% /run/qemu
+overlay         192G   39G  144G  21% /var/lib/docker/overlay2/7dd52f88867a74739b6b48388ae30407b9fc1886877d14fdf3218ef8bdf6db7b/merged

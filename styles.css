@@ -10,7 +10,7 @@
 
 body {
 	font-family: "Open Sans", sans-serif;
-	text-align:center;
+	text-align: center;
 	font-size: 16px;
     	text-decoration: none;
 	color: black;
@@ -21,18 +21,24 @@ body {
 	color: #fff;
 }
 
+
 table {
-    width: 100%;
+    width: 75%;
+    margin: auto;
     border-collapse: collapse;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.1);
+    table-layout: fixed; 
 }
 
 th, td {
-    border: 1px solid #ddd;
     padding: 10px;
-    text-align: left;
+    text-align: center;
     color: #eeeeee;
+    max-width: 300px;
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;
 }
 
 th {
@@ -64,9 +70,11 @@ h2 {
 
 #command {
     background-color: #00204a;
+    width:72%;
+    margin:auto; 
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
 
 #command h2 {
@@ -75,16 +83,16 @@ h2 {
 }
         
 #commandInput {
- 	width: calc(100% - 24px);
+ 	width: 75%;
 	padding: 12px;
 	margin-bottom: 20px;
 	border: none;
-	border-radius: 5px;
+	border-radius: 7.5px;
 	font-size: 16px;
 }
         
 .button-54 {
-            width: 100%;
+            width: 75%;
             padding: 15px;
             background-color: #4CAF50;
             color: white;
@@ -101,41 +109,13 @@ h2 {
 
 #addTaskForm {
     background-color: rgba(255, 255, 255, 0.1); 
+    width:70%;
     padding: 20px;
-    border-radius: 10px;
-    border: 2px solid #1a2a6c; 
+    border-radius: 25px;
+    margin: auto;
+    border: 10px solid #1a2a6c; 
     color: #fff;
-    position: fixed;
-    top: 130px;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width: 1000px; 
-}
-
-#deleteTaskForm {
-    background-color: rgba(0, 0, 0, 0.8); 
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid #1a2a6c; 
-    color: #fff;
-    position: fixed;
-    top: 53.5%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width: 1000px; 
-}
-
-#printTaskForm {
-    background-color: rgba(0, 0, 0, 0.8); 
-    padding: 20px;
-    border-radius: 10px;
-    border: 2px solid #1a2a6c; 
-    color: #fff; 
-    position: fixed;
-    top: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 1000px;
+    top: 5%;
 }
 
 
@@ -145,8 +125,8 @@ h2 {
 }
 
 #addTaskForm input[type="text"],
-#addTaskForm input[type="datetime-local"],
-#deleteTaskForm input[type="number"] {
+#addTaskForm input[type="datetime-local"]
+{
     width: calc(100% - 12px);
     padding: 10px;
     margin-bottom: 10px;
@@ -155,7 +135,7 @@ h2 {
     font-size: 16px;
 }
 
-#addTaskForm button, #deleteTaskForm button {
+#addTaskForm button{
     margin-top: 10px;
     padding: 10px 20px;
     border: none;
@@ -167,11 +147,11 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-#addTaskForm button:hover, #deleteTaskForm button:hover {
+#addTaskForm button:hover{
     background-color: #0d1b4c; 
 }
 
-#addTaskForm button:first-child, #deleteTaskForm button:first-child {
+#addTaskForm button:first-child{
     margin-right: 10px;
 }
 
@@ -191,8 +171,8 @@ h2 {
 }
 
 #taskTable {
-    margin-top:300px;
-    width: 100%;
+    margin-top:7.5%;
+    width: 75%;
     border-collapse: collapse;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -200,7 +180,7 @@ h2 {
 
 #taskList {
     top:60%;
-    width: 100%; 
+    width: 75%; 
     overflow-y: auto; 
     max-height: 300px;
 }

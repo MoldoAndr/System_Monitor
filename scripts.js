@@ -59,7 +59,8 @@ async function fetchAllData() {
     await fetchData('mem', 'memTable');
     await fetchData('proc', 'procTable');
     await fetchData('partition', 'partitionTable');
-    await fetchTemperatureData(); // Fetch temperature data
+    await fetchData('model','systemModel');
+    await fetchTemperatureData();
 }
 
 setInterval(fetchAllData, 200);

