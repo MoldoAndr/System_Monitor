@@ -46,7 +46,6 @@ while true; do
         echo "Components file not found."
     fi
 
-    # Wait for 0.2 seconds
     sleep 0.2
 done
 
