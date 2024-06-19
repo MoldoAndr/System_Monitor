@@ -1,6 +1,6 @@
 # System_Monitor
-	Monitor de sistem care afiseaza in cadrul unei pagini web informatii 
- 	despre sistemul pe care ruleaza programul, putand fi accesat remotely.
+Monitor de sistem care afiseaza in cadrul unei pagini web informatii 
+despre sistemul pe care ruleaza programul, putand fi accesat remotely.
 
 	Implementari ulterioare: creare unui utilizator restrictionat care are 
  	ca path un folder local ~/bin in care se gasesc doar comenzile de baza, 
