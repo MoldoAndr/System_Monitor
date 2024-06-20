@@ -1,10 +1,10 @@
-   4962    2653 15.4  1.8 firefox
-   2653    2239  6.2  1.4 gnome-shell
- 663210  663167  4.0  0.6 code
-1997088    4962  3.5  0.7 Isolated Web Co
-   5498    4962  3.4  0.6 Isolated Web Co
- 663313  663172  1.4  1.1 code
-   2248    2239  1.0  0.0 pulseaudio
-   5329    4962  1.0  1.2 WebExtensions
- 472335  472334  0.9  0.0 update.sh
-1998590    4962  0.8  0.6 Isolated Web Co
+   6625    3594 21.3  2.1 firefox
+   3594    3416  7.5  1.4 gnome-shell
+1091003    3416  1.7  0.4 gnome-terminal-
+   3425    3416  1.6  0.0 pulseaudio
+   6953    6625  1.4  0.6 WebExtensions
+2925299 2925297  0.8  0.0 update.sh
+    802       2  0.7  0.0 napi/phy0-8193
+2925296    3416  0.6  0.0 php
+    903       1  0.5  0.0 NetworkManager
+   3740    3735  0.4  0.0 ibus-daemon

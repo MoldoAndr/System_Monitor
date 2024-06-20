@@ -8,12 +8,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit();
 }
 
-
 if (isset($_GET['command'])) {
-    $command = $_GET['command'];
-    
-        $output = shell_exec($command);
-        echo $output;
+    // Extract command and arguments
+    $fullCommand = $_GET['command'];
+
+    $commandString = "\"$fullCommand\"";
+
+    $output = shell_exec("./dock_commands.sh $commandString 2>&1");
+
+    if ($output === null) {
+        http_response_code(500);
+        echo "Error executing command: $commandString";
+    } else {
+        echo "<pre>$output</pre>";
     }
 } else {
     http_response_code(400);

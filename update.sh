@@ -1,6 +1,10 @@
 #!/bin/bash
 
-sudo dmidecode -t system | grep "System Information" --after-context=8 | tail -n +2 > model
+str=$(sudo dmidecode -t system | grep "System Information" --after-context=8 | tail -n +2 | head -n 3)
+result=$(echo "$str" | sed -E 's/([^:]) /\1_/g')
+echo "$result" > model
+
+#sudo dmidecode -t system | grep "System Information" --after-context=8 | tail -n +2 | head -n 3 | tr ' ' '_' > model
 
 get_processor_info() {
     model=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | cut -d ':' -f 2 | sed 's/^ *//')

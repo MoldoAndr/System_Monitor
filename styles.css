@@ -213,3 +213,12 @@ h2 {
     padding: 10px; 
 }
 
+#model {
+    text-align: center;
+}
+
+#systemModel td {
+    text-align: center; /* Center the text horizontally */
+    vertical-align: middle; /* Center the text vertically */
+    height: 50px; /* Set a specific height if needed to better visualize the vertical alignment */
+}
