@@ -18,8 +18,9 @@ Sistem de monitorizare web care rulează pe localhost la portul 3000. Sistemul p
 - **Cron**: Programarea execuției periodice a sarcinilor.
 
 ## Cerințe
+- Make
 - Docker
 - PHP
-- Un server web (Apache)
-- Crontab (pentru cronjob-uri)
-- Node.js (opțional, pentru a rula serverul de pe portul 3000)
+- Apache2
+- Crontab
+- NodeJS
