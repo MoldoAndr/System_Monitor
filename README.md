@@ -1,23 +1,24 @@
 # Sistem de Monitorizare Web
 
-Sistem de monitorizare web care rulează pe localhost la portul 3000. Sistemul poate executa comenzi izolate într-un container Docker și poate programa cronjob-uri. Proiectul folosește HTML, CSS și JavaScript pentru front-end și PHP pentru back-end. Comenzile și cronjob-urile sunt gestionate prin shell script-uri.
+Sistem de monitorizare web care ruleaza pe localhost la portul 3000. Sistemul poate executa comenzi izolate intr-un container Docker si poate programa cronjob-uri. Proiectul foloseste HTML, CSS și JS pentru front-end si PHP si JS pentru back-end. Comenzile si cronjob-urile sunt gestionate prin shell script-uri.
 
 ## Caracteristici
-- Monitorizare în timp real a sistemului.
-- Execuția izolată a comenzilor într-un container Docker.
-- Programarea și gestionarea cronjob-urilor.
-- Interfață web ușor de utilizat.
+- Monitorizare in timp real a sistemului.
+- Executia izolata a comenzilor într-un container Docker.
+- Programarea si gestionarea cronjob-urilor.
+- Interfata web usor de utilizat.
+- Parsarea comenzilor host->docker si a rezultatului docker->host
 
 ## Tehnologii Utilizate
 - **HTML**: Structura paginii web.
 - **CSS**: Stilizarea paginii web.
-- **JavaScript**: Funcționalități dinamice pe partea de client.
+- **JavaScript**: Functionalitati dinamice pe partea de client cat si server.
 - **PHP**: Logica serverului și manipularea datelor.
-- **Shell Script (sh)**: Gestionarea comenzilor și cronjob-urilor.
-- **Docker**: Izolarea execuției comenzilor.
-- **Cron**: Programarea execuției periodice a sarcinilor.
+- **Shell Script (sh)**: Gestionarea comenzilor si cronjob-urilor.
+- **Docker**: Izolarea executiei comenzilor.
+- **Cron**: Programarea executiei periodice a sarcinilor.
 
-## Cerințe
+## Cerinte
 - Make
 - Docker
 - PHP
