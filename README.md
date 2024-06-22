@@ -29,4 +29,4 @@ Apache2
 Crontab
 NodeJS
 
-Build: Pentru dependintele necesare rulati sudo ./build.sh
+Build: Pentru dependintele necesare rulati sudo ./build.sh build.log
