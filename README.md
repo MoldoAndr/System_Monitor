@@ -1,11 +1,31 @@
-# System_Monitor
-	Monitor de sistem care afiseaza in cadrul unei pagini web informatii despre 
-sistemul pe care ruleaza programul, putand fi accesat remotely.
+Sistem de Monitorizare Web
 
-	Implementari ulterioare: creare unui utilizator restrictionat care are ca path un folder local ~/bin
-in care se gasesc doar comenzile de baza, fiind astfel realizata in mod secure o linie de comanda cu 
-un set de comenzi restrictionat de catre dezvoltator.
-	
-	Crearea unui task Scheduler care permite prin intermediul unei combinatii intre js, php si bash scripting
-sa automatizeze procesul de programare de taskuri, momentan putand da ca input din interfata web comanda ce va fi
-rulata si data si ora cand se va rula, se creeaza automat un cronjob care se va executa la momentul respectiv.
+Sistem de monitorizare web care ruleaza pe localhost la portul 3000. Sistemul poate executa comenzi izolate intr-un container Docker si poate programa cronjob-uri. Proiectul foloseste HTML, CSS și JS pentru front-end si PHP si JS pentru back-end. Comenzile si cronjob-urile sunt gestionate prin shell script-uri.
+Caracteristici
+
+    Monitorizare in timp real a sistemului.
+    Executia izolata a comenzilor într-un container Docker.
+    Programarea si gestionarea cronjob-urilor.
+    Interfata web usor de utilizat.
+    Parsarea comenzilor host->docker si a rezultatului docker->host
+
+Tehnologii Utilizate
+
+    HTML: Structura paginii web.
+    CSS: Stilizarea paginii web.
+    JavaScript: Functionalitati dinamice pe partea de client cat si server.
+    PHP: Logica serverului și manipularea datelor.
+    Shell Script (sh): Gestionarea comenzilor si cronjob-urilor.
+    Docker: Izolarea executiei comenzilor.
+    Cron: Programarea executiei periodice a sarcinilor.
+
+Cerinte
+
+    Make
+    Docker
+    PHP
+    Apache2
+    Crontab
+    NodeJS
+
+Build: Pentru dependintele necesare rulati sudo ./build.sh
