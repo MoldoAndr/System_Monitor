@@ -1,159 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Monitor</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-	<div id="model">
-	<h2>Computer Information:</h2>
-	<table id="systemModel">
-	    <tbody>
-		<tr>
-			<td>Loading Computer info...</td>
-		</tr>
-	    </tbody>
-	</table>
-	</div>
-
-	<div id="processor">
-        <h2>Processor Information:</h2>
-        <table id="cpuTable">
-            <thead>
-                <tr>
-		    <th>MODEL</th>
-                    <th>USAGE</th>
-                    <th>FREQ</th>
-		    <th>CORES</th>
-		</tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Loading processor info...</td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="navbar">
+        <button onclick="showSection('model')">Computer</button>
+        <button onclick="showSection('processor')">Processor</button>
+        <button onclick="showSection('network')">Data Usage</button>
+        <button onclick="showSection('ports')">Ports</button>
+        <button onclick="showSection('memory')">Memory</button>
+        <button onclick="showSection('partition')">Partition</button>
+        <button onclick="showSection('temperature')">Temperature</button>
+        <button onclick="showSection('usb')">USB Ports</button>
+        <button onclick="showSection('usage')">Usage per Core</button>
+        <button onclick="showSection('processes')">Processes</button>
+    </div>
+    <div class="container">
+        <div id="model" class="content-section">
+            <h2>Computer Information:</h2>
+            <table id="systemModel">
+                <thead>
+                    <tr>
+                        <th>MANUFACTURER</th>
+                        <th>PRODUCT NAME</th>
+                        <th>VERSION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loading Computer info...</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
 
+        <div id="processor" class="content-section">
+            <h2>Processor Information:</h2>
+            <table id="cpuTable">
+                <thead>
+                    <tr>
+                        <th>MODEL</th>
+                        <th>FREQ</th>
+                        <th>CORES</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loading processor info...</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table id="totalUsage">
+                <thead>
+                    <tr>
+                        <th>Total CPU USAGE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loading processor info...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-	<div id="network">
-    	<h2>Network Data Usage:</h2>
-    	<table id="networkTable">
-        <tbody>
-            <tr>
-                <td>Loading network data...</td>
-                <td>Loading network data...</td>
-            </tr>
-        </tbody>
-    	</table>
-	</div>
+        <div id="network" class="content-section">
+            <h2>Network Data Usage:</h2>
+            <table id="networkTable">
+                <thead>
+                    <tr>
+                        <th>Receive</th>
+                        <th>Send</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loading network data...</td>
+                        <td>Loading network data...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
+        <div id="ports" class="content-section">
+            <h2>Ports Monitor:</h2>
+            <table id="portsTable">
+                <thead>
+                    <tr>
+                        <th>Protocol</th>
+                        <th>Recv-Q</th>
+                        <th>Send-Q</th>
+                        <th>Local Address</th>
+                        <th>State</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loading ports data...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-<div id="memory">
-    <h2>Memory Information:</h2>
-    <table id="memTable">
-        <thead>
-        <tr>
-            	<th>TOTAL RAM</th>
-		<th>USAGE</th>
-	   	<th>FREQ</th>	
-	</tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Loading memory info...</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+        <div id="memory" class="content-section">
+            <h2>Memory Information:</h2>
+            <table id="memTable">
+                <thead>
+                    <tr>
+                        <th>TOTAL RAM</th>
+                        <th>USAGE</th>
+                        <th>CACHED</th>
+                        <th>FREQ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loading memory info...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-<div id="processes">
-    <h2>Processes Information:</h2>
-    <table id="procTable">
-        <thead>
-            <tr>
-                <th>PID</th>
-                <th>PPID</th>
-                <th>%CPU</th>
-                <th>%Memory</th>
-            <th>Name</th>
-        </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="5">Loading processes info...</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+        <div id="partition" class="content-section">
+            <h2>Partition Information:</h2>
+            <table id="partitionTable">
+                <thead>
+                    <tr>
+                        <th>Filesystem</th>
+                        <th>Size</th>
+                        <th>Used</th>
+                        <th>Available</th>
+                        <th>Use%</th>
+                        <th>Mounted on</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="6">Loading partition info...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-<div id="partition">
-    <h2>Partition Information:</h2>
-    <table id="partitionTable">
-        <thead>
-            <tr>
-                <th>Filesystem</th>
-                <th>Size</th>
-                <th>Used</th>
-                <th>Available</th>
-                <th>Use%</th>
-                <th>Mounted on</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="6">Loading partition info...</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+        <div id="temperature" class="content-section">
+            <h2>Temperature Information:</h2>
+            <table id="tempTable">
+                <thead>
+                    <tr>
+                        <th>Sensor</th>
+                        <th>Temperature</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Loading temperature info...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-   <div id="temperature">
-        <h2>Temperature Information:</h2>
-        <table id="tempTable">
+        <div id="usb" class="content-section">
+            <h2>UBS Ports information:</h2>
+            <table id="usbTable">
+                <thead>
+                    <tr>
+                        <th>Action</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Waiting for USB entries...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="usage" class="content-section">
+            <h2>CPU Usage per core:</h2>
+            <table id="usageTable">
+                <thead>
+                    <tr>
+                        <th>C0</th>
+                        <th>C1</th>
+                        <th>C2</th>
+                        <th>C3</th>
+                        <th>C4</th>
+                        <th>C5</th>
+                        <th>C6</th>
+                        <th>C7</th>
+                        <th>C8</th>
+                        <th>C9</th>
+                        <th>C10</th>
+                        <th>C11</th>
+                        <th>C12</th>
+                        <th>C13</th>
+                        <th>C14</th>
+                        <th>C15</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Loading processor info...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="processes" class="content-section">
+            <h2>Processes Information:</h2>
+            <table id="procTable">
+                <thead>
+                    <tr>
+                        <th>PID</th>
+                        <th>%CPU</th>
+                        <th>%MEM</th>
+                        <th>COMMAND</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="4">Loading processes info...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <button class="button-54" onclick="window.location.href='task_scheduler.html';">Task Scheduler</button>
+
+    <div id="command">
+        <input type="text" id="commandInput">
+        <button class="button-78" onclick="runCommand()">Run Command</button>
+    </div>
+
+    <div id="commandOutput" class="commandOutput">
+        <table id="outputTable">
             <thead>
                 <tr>
-                    <th>Sensor</th>
-                    <th>Temperature</th>
+                    <th>Output</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td colspan="2">Loading temperature info...</td>
+                    <td>No output yet...</td>
                 </tr>
             </tbody>
         </table>
     </div>
 
-            <button style="margin: 40px auto; font-family: 'Open Sans', sans-serif; font-size: 16px; letter-spacing: 2px; text-decoration: none; text-transform: uppercase; color: #fff; cursor: pointer; border: 3px solid #1a2a6c; padding: 0.25em 0.5em; box-shadow: 1px 1px 0px 0px #000, 2px 2px 0px 0px #000, 3px 3px 0px 0px #000, 4px 4px 0px 0px #000, 5px 5px 0px 0px #000; background: linear-gradient(135deg, #0d1b4c, #0a0e23); transition: background-color 0.3s ease; display: block; width: 75%; height: 60px; margin: 10 auto;" onclick="window.location.href='task_scheduler.html';">Task Scheduler</button>
 
-
-<div id="command">
-    <input type="text" id="commandInput" placeholder="Enter command...">
-    <button class="button-54" onclick="runCommand()">Run Command</button>
-</div>
-
-<div id="commandOutput">
-    <h2>Command Output:</h2>
-    <table id="outputTable">
-        <thead>
-            <tr>
-                <th>Output</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>No output yet...</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-<script src="scripts.js"></script>
-
-
+    <script src="scripts.js"></script>
 </body>
+
 </html>

@@ -1,6 +1,6 @@
 get_processor_info() {
     model=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | cut -d ':' -f 2 | sed 's/^ *//')
-    model=$(echo $model | tr ' ' '_' )
+    model=$(echo $model | tr ' ' '_')
     usage=$(top -bn1 | grep '%Cpu' | awk '{print $2 + $4}')
     freq=$(lscpu | grep "CPU MHz" | head -n 1 | cut -d ':' -f 2 | sed 's/^ *//')
     cores=$(lscpu | grep "CPU(s)" | head -n 1 | cut -d ':' -f 2 | sed 's/^ *//')
@@ -16,7 +16,6 @@ get_memory_info() {
     echo "$total_ram $used_ram $freq"
 }
 
-
 get_processes_info() {
 
     processes=$(ps -eo pid,ppid,%cpu,%mem,comm --sort=-%cpu | head -n 6 | tail -n 5 | sed 's/ /|/g')
@@ -24,7 +23,6 @@ get_processes_info() {
     echo "$processes"
 }
 
-while true;
-do
-sleep 1;
+while true; do
+    sleep 1
 done

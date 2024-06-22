@@ -15,4 +15,3 @@ fi
 ps -fp $matching_processes
 
 sudo pkill -f "$search_word"
-

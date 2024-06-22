@@ -14,7 +14,7 @@ if (isset($_GET['command'])) {
 
     $commandString = "\"$fullCommand\"";
 
-    $output = shell_exec("./dock_commands.sh $commandString 2>&1");
+    $output = shell_exec("sudo ./dock_commands.sh $commandString 2>&1");
 
     if ($output === null) {
         http_response_code(500);
@@ -27,4 +27,3 @@ if (isset($_GET['command'])) {
     echo "Command not specified";
 }
 ?>
-

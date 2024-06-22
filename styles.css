@@ -1,44 +1,149 @@
-
-.commandInput {
-	width: calc(100% - 24px);
-        padding: 12px;
-        margin-bottom: 20px;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        }
-
 body {
-	font-family: "Open Sans", sans-serif;
-	text-align: center;
-	font-size: 16px;
-    	text-decoration: none;
-	color: black;
-    	margin: 20px;
-	margin-bottom: 100px;
-     	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,19,81,1) 12%, rgba(9,60,104,1) 25%, rgba(61,111,185,1) 50%, rgba(20,44,109,1) 75%, rgba(24,24,75,1) 87%, rgba(23,24,92,1) 100%); 
-	color: #fff;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px;
+    margin-bottom: 100px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(19, 19, 81, 1) 12%, rgba(9, 60, 104, 1) 25%, rgba(61, 111, 185, 1) 50%, rgba(20, 44, 109, 1) 75%, rgba(24, 24, 75, 1) 87%, rgba(23, 24, 92, 1) 100%);
+    color: #3065c6;
+}
+
+.navbar {
+    border-radius: 20px;
+    width: fit-content;
+    height: 54px;
+    margin: auto;
+    display: flex;
+    background-color: #0b1648;
+    overflow-y: scroll;
+}
+
+.navbar button {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 22px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #262ca4;
+    color: black;
+    border-radius: 10px;
+}
+
+.container {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+
+pre {
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.container.child {
+    border-radius: 10px
+}
+
+.left-column,
+.right-column {
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    margin-right: 20px;
+    max-height: 1200px;
+    overflow-y: scroll;
+}
+
+.right-column {
+    overflow-y: scroll;
+    margin-left: 20px;
+    max-height: 1200px;
+}
+
+.processor,
+.processes,
+.commandOutput {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    margin: 30px auto;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.processes {
+    min-height: auto;
+    max-height: 525px;
+    overflow-y: scroll;
+}
+
+
+.commandOutput {
+
+    font-size: 24px;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 12.5px;
+    border-radius: 12.5px;
+    margin-bottom: 12.5px;
+    border: 1px solid #e6e6e6;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
 table {
-    width: 75%;
-    margin: auto;
-    border-collapse: collapse;
+    width: 100%;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    table-layout: fixed; 
+    table-layout: fixed;
+    border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: center;
-    color: #eeeeee;
+    color: #cbc8d8;
+    word-wrap: break-word;
     max-width: 300px;
-    overflow: hidden; 
-    white-space: nowrap; 
+    overflow: hidden;
+    white-space: normal;
     text-overflow: ellipsis;
+    border-radius: 10px;
+
 }
 
 th {
@@ -46,117 +151,150 @@ th {
 }
 
 h2 {
+    border-radius: 10px;
     margin-bottom: 5px;
-    color: #8f94fb;
+    color: #d1d3ed;
 }
 
-.button-54 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
+tbody {
+    border-radius: 10px;
+}
+
+
+.button-78 {
+    align-items: left;
+    appearance: none;
+    background-clip: padding-box;
+    background-color: initial;
+    background-image: none;
+    border-style: none;
+    box-sizing: border-box;
     color: #fff;
     cursor: pointer;
-    border: 3px solid #1a2a6c; 
+    display: inline-block;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: Eina01, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    justify-content: center;
+    line-height: 24px;
+    min-height: 64px;
+    outline: none;
+    overflow: visible;
+    padding: 19px 26px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    word-break: keep-all;
+    z-index: 0;
+}
+
+@media (min-width: 768px) {
+    .button-78 {
+        padding: 19px 32px;
+    }
+}
+
+.button-78:before,
+.button-78:after {
+    border-radius: 80px;
+}
+
+.button-78:before {
+    background-image: linear-gradient(92.83deg, #2634ff 0, #1b13f9 100%);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.button-78:after {
+    background-color: initial;
+    background-image: linear-gradient(#140f54 0, #0c0d0d 100%);
+    bottom: 4px;
+    content: "";
+    display: block;
+    left: 4px;
+    overflow: hidden;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    transition: all 100ms ease-out;
+    z-index: -1;
+}
+
+.button-78:hover:not(:disabled):before {
+    background: linear-gradient(92.83deg, rgb(38, 121, 255) 0%, rgb(19, 234, 249) 100%);
+}
+
+.button-78:hover:not(:disabled):after {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition-timing-function: ease-in;
+    opacity: 0;
+}
+
+.button-78:active:not(:disabled) {
+    color: #ccc;
+}
+
+.button-78:active:not(:disabled):before {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #5812e3 0, #135cf9 100%);
+}
+
+.button-78:active:not(:disabled):after {
+    background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    top: 4px;
+}
+
+.button-78:disabled {
+    cursor: default;
+    opacity: .24;
+}
+
+.button-54,
+.button-54-2 {
+    border-radius: 20px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border: 3px solid #1a2a6c;
     padding: 0.25em 0.5em;
     box-shadow: 1px 1px 0px 0px #000, 2px 2px 0px 0px #000, 3px 3px 0px 0px #000, 4px 4px 0px 0px #000, 5px 5px 0px 0px #000;
     position: relative;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    background: linear-gradient(135deg, #0d1b4c, #0a0e23); /* Dark blue gradient */
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(19, 19, 81, 1) 12%, rgba(9, 60, 104, 1) 25%, rgba(61, 111, 185, 1) 50%, rgba(20, 44, 109, 1) 75%, rgba(24, 24, 75, 1) 87%, rgba(23, 24, 92, 1) 100%);
 }
 
-#command {
-    background-color: #00204a;
-    width:72%;
-    margin:auto; 
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-}
-
-#command h2 {
-    color: #fff;
-    margin-bottom: 6px;
-}
-        
-#commandInput {
- 	width: 75%;
-	padding: 12px;
-	margin-bottom: 20px;
-	border: none;
-	border-radius: 7.5px;
-	font-size: 16px;
-}
-        
-.button-54 {
-            width: 75%;
-            padding: 15px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-}
-
-.button-54:hover {
-            background-color: #328da8;
-    }
-
-#addTaskForm {
-    background-color: rgba(255, 255, 255, 0.1); 
-    width:70%;
-    padding: 20px;
-    border-radius: 25px;
+.button-54-2 {
     margin: auto;
-    border: 10px solid #1a2a6c; 
-    color: #fff;
-    top: 5%;
 }
 
-
-#addTaskForm label, #deleteTaskForm label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-#addTaskForm input[type="text"],
-#addTaskForm input[type="datetime-local"]
-{
-    width: calc(100% - 12px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-#addTaskForm button{
-    margin-top: 10px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #fff; 
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
-}
-
-#addTaskForm button:hover{
-    background-color: #0d1b4c; 
-}
-
-#addTaskForm button:first-child{
-    margin-right: 10px;
-}
 
 .goback-button {
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -164,53 +302,168 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 80px; 
+    font-size: 80px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#command {
+    background-color: #132471;
+    width: 72%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#command h2 {
+    color: #fff;
+    margin-bottom: 6px;
+}
+
+#commandInput {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    scrollbar-highlight-color: aqua;
+    border: none;
+    color: #b1b8dd;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.button-54 {
+    width: 75%;
+    padding: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+table {
+    color: transparent;
+}
+
+#addTaskForm {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 70%;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    border: 10px solid #1a2a6c;
+    color: #fff;
+    top: 5%;
+}
+
+
+#addTaskForm label,
+#deleteTaskForm label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#addTaskForm input[type="text"],
+#addTaskForm input[type="datetime-local"] {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#addTaskForm button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#addTaskForm button:hover {
+    background-color: #0d1b4c;
+}
+
+#addTaskForm button:first-child {
+    margin-right: 10px;
+}
+
+.goback-button {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
     color: #fff;
     cursor: pointer;
 
 }
 
 #taskTable {
-    margin-top:7.5%;
+    margin: 100px auto;
+    border-radius: 40px;
     width: 75%;
     border-collapse: collapse;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+#usageTable {
+    color: transparent;
+    margin-top: 0%;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
 #taskList {
-    top:60%;
-    width: 75%; 
-    overflow-y: auto; 
+    color: transparent;
+    border-radius: 20px;
+    top: 60%;
+    width: 75%;
+    overflow-y: auto;
     max-height: 300px;
 }
 
 #taskList tr {
 
-    background-color: rgba(255, 255, 255, 0.1); 
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 #taskList tr:nth-child(even) {
 
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 #taskList tr:hover {
 
-    background-color: rgba(255, 255, 255, 0.3); 
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 #taskList td {
- 
-    padding: 10px; 
-    color: #fff; 
+
+    padding: 10px;
+    color: #fff;
 }
 
 #taskList th {
 
     background-color: #1a2a6c;
-    color: #fff; 
-    padding: 10px; 
+    color: #fff;
+    padding: 10px;
 }
 
 #model {
@@ -221,4 +474,16 @@ h2 {
     text-align: center;
     vertical-align: middle;
     height: 50px;
+}
+
+#usbTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+#usbTable tbody {
+    max-height: 300px;
+    overflow-y: auto;
+
 }

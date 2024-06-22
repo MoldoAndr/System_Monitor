@@ -1,0 +1,10 @@
+1 1.28% systemd
+361 0.81% systemd-journal
+399 0.59% systemd-udevd
+726 3.85% systemd-oomd
+754 0.59% ovsdb-server
+755 0.64% systemd-resolve
+760 0.28% systemd-timesyn
+858 0.20% accounts-daemon
+863 1.56% acpid
+871 0.40% avahi-daemon

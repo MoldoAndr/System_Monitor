@@ -11,9 +11,9 @@ cron_job_exists() {
 
 add_tasks_from_file() {
     while read text; do
-	    command=$(echo $text | cut -d',' -f1)
-	    datetime=$(echo $text | cut -d',' -f2)
-	if [ -f "$command" ]; then
+        command=$(echo $text | cut -d',' -f1)
+        datetime=$(echo $text | cut -d',' -f2)
+        if [ -f "$command" ]; then
             year=$(echo $datetime | cut -d'T' -f1 | cut -d'-' -f1)
             month=$(echo $datetime | cut -d'T' -f1 | cut -d'-' -f2)
             day=$(echo $datetime | cut -d'T' -f1 | cut -d'-' -f3)
@@ -25,11 +25,10 @@ add_tasks_from_file() {
                 $ADD_CRON_TASK_SCRIPT "$text"
             fi
         fi
-    done < "$TASKS_FILE"
+    done <"$TASKS_FILE"
 }
 
 while true; do
     add_tasks_from_file
     sleep 1
 done
-

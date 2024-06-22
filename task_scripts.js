@@ -6,7 +6,7 @@ function addTask() {
         var xhr = new XMLHttpRequest();
         xhr.open("POST", "task_manager.php", true);
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        xhr.onreadystatechange = function() {
+        xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200) {
                 console.log("Task added successfully");
                 fetchTasks();
@@ -22,7 +22,7 @@ function deleteTask(taskNumber) {
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "task_manager.php", true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr.onreadystatechange = function() {
+    xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             console.log("Task deleted successfully");
             fetchTasks();
@@ -31,17 +31,16 @@ function deleteTask(taskNumber) {
     xhr.send("taskNumber=" + encodeURIComponent(taskNumber));
 }
 
-
 function fetchTasks() {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", "tasks.txt", true);
-    xhr.onreadystatechange = function() {
+    xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             var tasks = xhr.responseText.split("\n");
             var taskList = document.getElementById("taskList");
-            taskList.innerHTML = ""; 
+            taskList.innerHTML = "";
 
-            tasks.forEach(function(task, index) {
+            tasks.forEach(function (task, index) {
                 if (task.trim() !== "") {
                     var parts = task.split(",");
                     var taskName = parts[0];
@@ -56,6 +55,7 @@ function fetchTasks() {
                     nameCell.textContent = taskName;
                     timeCell.textContent = taskTime;
                     deleteButton.textContent = "Delete";
+                    deleteButton.className = "button-54-2";
                     deleteButton.setAttribute("onclick", "deleteTask(" + (index + 1) + ")");
                     deleteCell.appendChild(deleteButton);
 
@@ -72,4 +72,3 @@ function fetchTasks() {
 }
 
 fetchTasks();
-

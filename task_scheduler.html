@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,8 @@
 </head>
 
 <body>
-
+    <button class="button-78" style="  margin-left:calc(100px - 100%);"
+        onclick="window.location.href='index.html'">Back</button>
     <div id="addTaskForm">
         <label for="taskName">Command to run:</label>
         <input type="text" id="taskName" name="taskName" required><br>
@@ -16,19 +18,18 @@
         <input type="datetime-local" id="taskTime" name="taskTime" required><br>
         <button class="button-54" onclick="addTask()">Add Task</button>
     </div>
-
-
-
-	<table id="taskTable">
+    <table id="taskTable" class="taskTable">
         <thead>
+            <tr>
+                <th>Task Name</th>
+                <th>Scheduled Time</th>
+                <th>Action</th>
+            </tr>
         </thead>
-        <tbody id="taskList">
+        <tbody id="taskList" class="taskList">
         </tbody>
-    	</table>
-
-
+    </table>
     <script src="task_scripts.js"></script>
-
 </body>
-</html>
 
+</html>
