@@ -4,29 +4,29 @@ Sistem de monitorizare web care ruleaza pe localhost la portul 3000. Sistemul po
 
 Caracteristici
 
-    Monitorizare in timp real a sistemului.
-    Executia izolata a comenzilor într-un container Docker.
-    Programarea si gestionarea cronjob-urilor.
-    Interfata web usor de utilizat.
-    Parsarea comenzilor host->docker si a rezultatului docker->host
+Monitorizare in timp real a sistemului.
+Executia izolata a comenzilor într-un container Docker.
+Programarea si gestionarea cronjob-urilor.
+Interfata web usor de utilizat.
+Parsarea comenzilor host->docker si a rezultatului docker->host
 
 Tehnologii Utilizate
 
-    HTML: Structura paginii web.
-    CSS: Stilizarea paginii web.
-    JavaScript: Functionalitati dinamice pe partea de client cat si server.
-    PHP: Logica serverului și manipularea datelor.
-    Shell Script (sh): Gestionarea comenzilor si cronjob-urilor.
-    Docker: Izolarea executiei comenzilor.
-    Cron: Programarea executiei periodice a sarcinilor.
+HTML: Structura paginii web.
+CSS: Stilizarea paginii web.
+JavaScript: Functionalitati dinamice pe partea de client cat si server.
+PHP: Logica serverului și manipularea datelor.
+Shell Script (sh): Gestionarea comenzilor si cronjob-urilor.
+Docker: Izolarea executiei comenzilor.
+Cron: Programarea executiei periodice a sarcinilor.
 
 Cerinte
 
-    Make
-    Docker
-    PHP
-    Apache2
-    Crontab
-    NodeJS
+Make
+Docker
+PHP
+Apache2
+Crontab
+NodeJS
 
 Build: Pentru dependintele necesare rulati sudo ./build.sh
