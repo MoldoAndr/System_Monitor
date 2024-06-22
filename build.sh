@@ -7,6 +7,7 @@ if [[ $# -ne 1 ]]; then
     echo "usage: ./build.sh build_log_file"
     exit 1
 else
+    sudo chmod 777 *
     #Dependente necesare
     sudo apt install libudev-dev make php8.1 python3.10 gcc g++ build-essential ca-certificates curl iproute2 cron -y &>>$1
     ((error_less += $?))
