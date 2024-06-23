@@ -1,14 +1,13 @@
 #!/bin/bash
 
 declare -i error_less=0
-echo "" >$1
 
 if [[ $# -ne 1 ]]; then
     echo "usage: ./build.sh build_log_file"
     exit 1
 else
     #Dependente necesare
-    sudo apt install libudev-dev make php8.1 python3.10 gcc g++ build-essential ca-certificates curl iproute2 cron -y &>>$1
+    sudo apt install libudev-dev acpi make php8.1 python3.10 gcc g++ build-essential ca-certificates curl iproute2 cron -y &>>$1
     ((error_less += $?))
     sudo apt update &>>$1
     pip install psutil &>>$1
@@ -47,11 +46,11 @@ else
     if [[ $error_less -eq 0 ]]; then
         echo Instalarea dependintelor a fost un succes
         echo Pentru a porni monitorul rulati comanda "make"
-        mkdir ./shared  &> /dev/null
-        mkdir ./shared/input &> /dev/null
-        mkdir ./shared/output &> /dev/null
-        touch ./shared/input/commands.txt &> /dev/null
-        touch ./shared/output/output.txt &> /dev/null
+        mkdir ./shared &>/dev/null
+        mkdir ./shared/input &>/dev/null
+        mkdir ./shared/output &>/dev/null
+        touch ./shared/input/commands.txt &>/dev/null
+        touch ./shared/output/output.txt &>/dev/null
         sudo rm $1
         sleep 5
         clear

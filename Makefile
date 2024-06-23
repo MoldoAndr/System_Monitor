@@ -3,9 +3,11 @@ all:
 	sudo ./add_tasks_from_file.sh &
 	sudo ./network_traffic &
 	sudo ./usb_monitor &
+	sudo ./battery_info.sh &
 	sudo  python3 procs.py &
 	php -S localhost:3000 > output.log 2>&1 &
 die:
+	sudo pkill -f battery_info
 	sudo pkill -f network_traffic
 	sudo pkill -f procs
 	sudo pkill -f php

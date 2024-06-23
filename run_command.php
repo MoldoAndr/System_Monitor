@@ -9,7 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 }
 
 if (isset($_GET['command'])) {
-    // Extract command and arguments
     $fullCommand = $_GET['command'];
 
     $commandString = "\"$fullCommand\"";

@@ -41,6 +41,8 @@ async function fetchAllData() {
         await fetchData('usb_events.txt', 'usbTable');
         await fetchData('network_usage', 'networkTable');
         await fetchData('ports', 'portsTable');
+        await fetchData('battery_info', 'batteryTable');
+        await fetchData('brightness', 'brightnessTable');
     } catch (error) {
         console.error('Error fetching all data:', error);
     }
@@ -145,7 +147,7 @@ async function runCommand() {
         } else {
             displayCommandOutput(output);
         }
-        fetchAllData(); // Refresh all data after running command
+        fetchAllData();
     } catch (error) {
         console.error('Error running command:', error);
     }
@@ -163,3 +165,127 @@ async function displayCommandOutput(output) {
 }
 
 fetchAllData();
+
+document.querySelectorAll(".neon-button").forEach((button) => {
+    button.addEventListener("click", function (e) {
+        const numDrops = 10;
+        const rect = button.getBoundingClientRect();
+
+        for (let i = 0; i < numDrops; i++) {
+            const drop = document.createElement("span");
+            drop.classList.add("drop");
+
+            const x = rect.left + rect.width / 2 + (Math.random() - 0.5) * 60;
+            const y = rect.top + rect.height / 2 + (Math.random() - 0.5) * 60;
+
+            drop.style.left = `${x}px`;
+            drop.style.top = `${y}px`;
+
+            document.body.appendChild(drop);
+
+            setTimeout(() => {
+                drop.remove();
+            }, 5000);
+        }
+    });
+});
+
+function changeBrightness(direction) {
+    fetch(`brightness.php?direction=${direction}`)
+        .then(response => response.text())
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => console.error('Error:', error));
+}
+
+function addTask() {
+    var taskName = document.getElementById("taskName").value;
+    var taskTime = document.getElementById("taskTime").value;
+
+    if (taskName && taskTime) {
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "task_manager.php", true);
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                console.log("Task added successfully");
+                fetchTasks();
+            }
+        };
+        xhr.send("taskName=" + encodeURIComponent(taskName) + "&taskTime=" + encodeURIComponent(taskTime));
+    } else {
+        alert("Please enter both task name and scheduled time.");
+    }
+}
+
+function deleteTask(taskNumber) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "task_manager.php", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            console.log("Task deleted successfully");
+            fetchTasks();
+        }
+    };
+    xhr.send("taskNumber=" + encodeURIComponent(taskNumber));
+}
+
+function fetchTasks() {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "tasks.txt", true);
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var tasks = xhr.responseText.split("\n");
+            var taskList = document.getElementById("taskList");
+            taskList.innerHTML = "";
+
+            tasks.forEach(function (task, index) {
+                if (task.trim() !== "") {
+                    var parts = task.split(",");
+                    var taskName = parts[0];
+                    var taskTime = parts[1];
+
+                    var row = document.createElement("tr");
+                    var nameCell = document.createElement("td");
+                    var timeCell = document.createElement("td");
+                    var deleteCell = document.createElement("td");
+                    var deleteButton = document.createElement("button");
+
+                    nameCell.textContent = taskName;
+                    timeCell.textContent = taskTime;
+                    deleteButton.textContent = "Delete";
+                    deleteButton.className = "button-54-2";
+                    deleteButton.setAttribute("onclick", "deleteTask(" + (index + 1) + ")");
+                    deleteCell.appendChild(deleteButton);
+
+                    row.appendChild(nameCell);
+                    row.appendChild(timeCell);
+                    row.appendChild(deleteCell);
+
+                    taskList.appendChild(row);
+                }
+            });
+        }
+    };
+    xhr.send();
+}
+
+fetchTasks();
+
+function showSection(sectionId) {
+    const buttons = document.querySelectorAll('.neon-button');
+    const sections = document.querySelectorAll('.content-section');
+    const section = document.getElementById(sectionId);
+    const button = document.querySelector(`button[onclick="showSection('${sectionId}')"]`);
+    if (section.classList.contains('active')) {
+        section.classList.remove('active');
+        button.classList.remove('active');
+    } else {
+        buttons.forEach(btn => btn.classList.remove('active'));
+        sections.forEach(sec => sec.classList.remove('active'));
+        section.classList.add('active');
+        button.classList.add('active');
+    }
+}

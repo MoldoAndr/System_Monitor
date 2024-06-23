@@ -4,24 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>System Monitor</title>
+    <title>Monitor</title>
     <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    <div class="navbar">
-        <button onclick="showSection('model')">Computer</button>
-        <button onclick="showSection('processor')">Processor</button>
-        <button onclick="showSection('network')">Data Usage</button>
-        <button onclick="showSection('ports')">Ports</button>
-        <button onclick="showSection('memory')">Memory</button>
-        <button onclick="showSection('partition')">Partition</button>
-        <button onclick="showSection('temperature')">Temperature</button>
-        <button onclick="showSection('usb')">USB Ports</button>
-        <button onclick="showSection('usage')">Usage per Core</button>
-        <button onclick="showSection('processes')">Processes</button>
+
+    <div class="wrapper">
+        <div class="bg"> System Monitor </div>
+        <div class="fg"> System Monitor</div>
     </div>
+    <div class="between"></div>
+    <nav class="nav-bar">
+        <button onclick="showSection('model')" class="neon-button">Computer</button>
+        <button onclick="showSection('processor')" class="neon-button">Processor</button>
+        <button onclick="showSection('network')" class="neon-button">Data Usage</button>
+        <button onclick="showSection('ports')" class="neon-button">Ports</button>
+        <button onclick="showSection('memory')" class="neon-button">Memory</button>
+        <button onclick="showSection('partition')" class="neon-button">Partition</button>
+        <button onclick="showSection('temperature')" class="neon-button">Temp</button>
+        <button onclick="showSection('usb')" class="neon-button">USB Ports</button>
+        <button onclick="showSection('usage')" class="neon-button">Usage per Core</button>
+        <button onclick="showSection('processes')" class="neon-button">Processes</button>
+        <button onclick="showSection('taskSchedule')" class="neon-button">Task Scheduler</button>
+        <button onclick="showSection('get-input')" class="neon-button">Docker Bash</button>
+    </nav>
+
     <div class="container">
+
         <div id="model" class="content-section">
             <h2>Computer Information:</h2>
             <table id="systemModel">
@@ -32,9 +43,39 @@
                         <th>VERSION</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     <tr>
                         <td>Loading Computer info...</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Screen Brightness:</h2>
+            <table id="brightnessTable">
+                <thead>
+                    <tr>
+                        <th>Actual Brightness</th>
+                        <th>Max Brightness</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Waiting for Screen brightness information...</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Battery Information:</h2>
+            <table id="batteryTable">
+                <thead>
+                    <tr>
+                        <th>State</th>
+                        <th>Percentage</th>
+                        <th>Time Left</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="3">Loading battery info...</td>
                     </tr>
                 </tbody>
             </table>
@@ -56,6 +97,7 @@
                     </tr>
                 </tbody>
             </table>
+
             <table id="totalUsage">
                 <thead>
                     <tr>
@@ -165,6 +207,8 @@
             </table>
         </div>
 
+
+
         <div id="usb" class="content-section">
             <h2>UBS Ports information:</h2>
             <table id="usbTable">
@@ -233,28 +277,49 @@
         </div>
     </div>
 
-    <button class="button-54" onclick="window.location.href='task_scheduler.html';">Task Scheduler</button>
-
-    <div id="command">
-        <input type="text" id="commandInput">
-        <button class="button-78" onclick="runCommand()">Run Command</button>
-    </div>
-
-    <div id="commandOutput" class="commandOutput">
-        <table id="outputTable">
+    <div id="taskSchedule" class="content-section">
+        <div id="addTaskForm">
+            <label for="taskName">Command to run:</label>
+            <input type="text" id="taskName" name="taskName" required><br>
+            <label for="taskTime">Scheduled Time:</label>
+            <input type="datetime-local" id="taskTime" name="taskTime" required><br>
+            <button class="button-54" onclick="addTask()">Add Task</button>
+        </div>
+        <table id="taskTable" class="taskTable">
             <thead>
                 <tr>
-                    <th>Output</th>
+                    <th>Task Name</th>
+                    <th>Scheduled Time</th>
+                    <th>Action</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>No output yet...</td>
-                </tr>
+            <tbody id="taskList" class="taskList">
             </tbody>
         </table>
     </div>
+    </div>
 
+    <div id="get-input" class="content-section">
+        <div id="command">
+            <input type="text" id="commandInput">
+            <button class="button-78" onclick="runCommand()">Run Command</button>
+        </div>
+
+        <div id="commandOutput" class="commandOutput">
+            <table id="outputTable">
+                <thead>
+                    <tr>
+                        <th>Output</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>No output yet...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
     <script src="scripts.js"></script>
 </body>

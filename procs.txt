@@ -1,18 +1,18 @@
-8992 1.31 3.18 code
-7351 0.58 3.89 Isolated Web Co
-5185 0.44 2.46 firefox
-970422 0.44 0.05 python3
-3598 0.29 1.34 gnome-shell
-8925 0.29 0.99 code
-9009 0.29 0.37 code
-9054 0.29 2.07 code
-16 0.14 0.00 rcu_preempt
-1825 0.14 0.00 gfx_0.0.0
-3432 0.14 0.11 pulseaudio
-5685 0.14 0.22 Utility Process
-8971 0.14 0.25 code
-996980 0.14 0.67 Isolated Web Co
-1 0.00 0.05 systemd
+10398 2.31 3.50 code
+3756 0.72 1.32 gnome-shell
+1480132 0.58 0.05 python3
+5408 0.57 2.65 firefox
+10375 0.57 0.39 code
+4413 0.43 0.43 Xwayland
+607615 0.43 3.60 Isolated Web Co
+881 0.14 0.00 atopacctd
+1639 0.14 0.00 gfx_0.0.0
+3583 0.14 0.11 pulseaudio
+10312 0.14 0.74 code
+1173127 0.14 1.30 Isolated Web Co
+1476830 0.14 0.00 kworker/u32:4-events_unbound
+1478920 0.14 0.75 Isolated Web Co
+1 0.00 0.04 systemd
 2 0.00 0.00 kthreadd
 3 0.00 0.00 rcu_gp
 4 0.00 0.00 rcu_par_gp

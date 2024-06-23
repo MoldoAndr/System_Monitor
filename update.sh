@@ -4,6 +4,23 @@ str=$(sudo dmidecode -t system | grep "System Information" --after-context=8 | t
 result=$(echo "$str" | sed -E 's/([^:]) /\1_/g' | cut -d':' -f2 | tr '\n' ' ')
 echo "$result" >model
 
+get_screen_info()
+{
+xrandr_output=$(xrandr)
+xdpyinfo_output=$(xdpyinfo | grep dimensions)
+xwininfo_output=$(xwininfo -root | grep -E 'Width|Height|Depth')
+
+echo "Screen Information:"
+echo "$xrandr_output"
+echo
+echo "Screen Dimensions (xdpyinfo):"
+echo "$xdpyinfo_output"
+echo
+echo "Screen Dimensions (xwininfo):"
+echo "$xwininfo_output"
+
+}
+
 get_processor_info() {
 
     model=$(cat /proc/cpuinfo | grep "model name" | head -n 1 | cut -d ':' -f 2 | sed 's/^ *//')
@@ -23,9 +40,19 @@ get_memory_info() {
     echo $total_ram'GB' $mem_usage'%' $cached_mem'GB' $freq'MHz' >mem
 }
 
-get_processor_info
+get_brightness_info()
+{
+    interface=$(ls /sys/class/backlight/)
+    brightness=$(cat /sys/class/backlight/$interface/brightness)
+    max_brightness=$(cat /sys/class/backlight/$interface/max_brightness)
+    echo "$brightness $max_brightness" >brightness
+}
 
 while true; do
+
+    get_processor_info
+    
+    get_brightness_info
 
     get_memory_info
 
