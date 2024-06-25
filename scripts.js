@@ -42,6 +42,7 @@ async function fetchAllData() {
         await fetchData('network_usage', 'networkTable');
         await fetchData('ports', 'portsTable');
         await fetchData('battery_info', 'batteryTable');
+        await fetchTasks();
         await fetchData('brightness', 'brightnessTable');
     } catch (error) {
         console.error('Error fetching all data:', error);
@@ -190,13 +191,28 @@ document.querySelectorAll(".neon-button").forEach((button) => {
     });
 });
 
-function changeBrightness(direction) {
-    fetch(`brightness.php?direction=${direction}`)
-        .then(response => response.text())
-        .then(data => {
-            console.log(data);
-        })
-        .catch(error => console.error('Error:', error));
+function sendBrightnessRequest(direction) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "brightness.php", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                console.log(xhr.responseText);
+            } else {
+                console.error('Error:', xhr.statusText);
+            }
+        }
+    };
+    xhr.send("direction=" + direction);
+}
+
+function increaseBrightness() {
+    sendBrightnessRequest("up");
+}
+
+function decreaseBrightness() {
+    sendBrightnessRequest("down");
 }
 
 function addTask() {
@@ -219,50 +235,30 @@ function addTask() {
     }
 }
 
-function deleteTask(taskNumber) {
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "task_manager.php", true);
-    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            console.log("Task deleted successfully");
-            fetchTasks();
-        }
-    };
-    xhr.send("taskNumber=" + encodeURIComponent(taskNumber));
-}
-
 function fetchTasks() {
     var xhr = new XMLHttpRequest();
-    xhr.open("GET", "tasks.txt", true);
+    xhr.open("GET", "getCrontabTasks.php", true);
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
             var tasks = xhr.responseText.split("\n");
             var taskList = document.getElementById("taskList");
             taskList.innerHTML = "";
 
-            tasks.forEach(function (task, index) {
+            tasks.forEach(function (task) {
                 if (task.trim() !== "") {
-                    var parts = task.split(",");
-                    var taskName = parts[0];
-                    var taskTime = parts[1];
+                    var parts = task.trim().split(/\s+/);
+                    var scheduleParts = parts.slice(0, 5);
+                    var command = parts.slice(5).join(" ");
 
                     var row = document.createElement("tr");
-                    var nameCell = document.createElement("td");
-                    var timeCell = document.createElement("td");
-                    var deleteCell = document.createElement("td");
-                    var deleteButton = document.createElement("button");
-
-                    nameCell.textContent = taskName;
-                    timeCell.textContent = taskTime;
-                    deleteButton.textContent = "Delete";
-                    deleteButton.className = "button-54-2";
-                    deleteButton.setAttribute("onclick", "deleteTask(" + (index + 1) + ")");
-                    deleteCell.appendChild(deleteButton);
-
-                    row.appendChild(nameCell);
-                    row.appendChild(timeCell);
-                    row.appendChild(deleteCell);
+                    scheduleParts.forEach(function (part) {
+                        var cell = document.createElement("td");
+                        cell.textContent = part;
+                        row.appendChild(cell);
+                    });
+                    var commandCell = document.createElement("td");
+                    commandCell.textContent = command;
+                    row.appendChild(commandCell);
 
                     taskList.appendChild(row);
                 }
@@ -271,6 +267,8 @@ function fetchTasks() {
     };
     xhr.send();
 }
+
+
 
 fetchTasks();
 
@@ -288,4 +286,25 @@ function showSection(sectionId) {
         section.classList.add('active');
         button.classList.add('active');
     }
+}
+
+function deleteTaskById() {
+    var taskId = document.getElementById("taskIdInput").value;
+    if (taskId) {
+        deleteTask(taskId);
+    } else {
+        alert("Please enter a valid task ID.");
+    }
+}
+
+function deleteTask(taskId) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", "deleteCrontabTask.php", true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            fetchTasks();
+        }
+    };
+    xhr.send("taskId=" + encodeURIComponent(taskId));
 }

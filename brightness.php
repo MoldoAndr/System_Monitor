@@ -1,13 +1,17 @@
 <?php
-if (isset($_GET['direction'])) {
-    $direction = $_GET['direction'];
-    if ($direction == 'up' || $direction == 'down') {
-        $output = shell_exec("sudo ./modify_brightness" . escapeshellarg($direction));
-        echo "Brightness changed: " . $output;
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_POST['direction'])) {
+        $direction = $_POST['direction'];
+        if ($direction == 'up' || $direction == 'down') {
+            $output = shell_exec("sudo ./modify_brightness.sh " . escapeshellarg($direction));
+            echo "Brightness changed: " . $output;
+        } else {
+            echo "Invalid direction";
+        }
     } else {
-        echo "Invalid direction";
+        echo "No direction provided";
     }
 } else {
-    echo "No direction provided";
+    echo "Invalid request method";
 }
 ?>

@@ -1,0 +1,1 @@
+crontab -l | sed "$1p" | uniq -d | sed 's/\*/\\*/g'

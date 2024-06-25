@@ -41,12 +41,13 @@
                         <th>MANUFACTURER</th>
                         <th>PRODUCT NAME</th>
                         <th>VERSION</th>
+                        <th>KERNEL</th>
                     </tr>
                 </thead>
 
                 <tbody>
                     <tr>
-                        <td>Loading Computer info...</td>
+                        <td colspan="4">Loading Computer info...</td>
                     </tr>
                 </tbody>
             </table>
@@ -64,6 +65,12 @@
                     </tr>
                 </tbody>
             </table>
+
+            <div class="buttons">
+                <button onclick="decreaseBrightness()" class="button-78">Decrease Brightness</button>
+                <button onclick="increaseBrightness()" class="button-78">Increase Brightness</button>
+            </div>
+
             <h2>Battery Information:</h2>
             <table id="batteryTable">
                 <thead>
@@ -226,7 +233,7 @@
             </table>
         </div>
 
-        <div id="usage" class="content-section">
+        <div id="usage" class="content-section" style="width: 120%;">
             <h2>CPU Usage per core:</h2>
             <table id="usageTable">
                 <thead>
@@ -285,21 +292,35 @@
             <input type="datetime-local" id="taskTime" name="taskTime" required><br>
             <button class="button-54" onclick="addTask()">Add Task</button>
         </div>
+
+        </table>
+
+        <div id="deleteTaskTable" class="deleteTaskTable">
+            <input type="number" id="taskIdInput" class="DeleteEnterID" placeholder="Enter Task ID">
+            <input type="button" value="Delete" class="DeletePressButton" onclick="deleteTaskById()">
+        </div>
+
         <table id="taskTable" class="taskTable">
             <thead>
                 <tr>
-                    <th>Task Name</th>
-                    <th>Scheduled Time</th>
-                    <th>Action</th>
+                    <th>m</th>
+                    <th>h</th>
+                    <th>dom</th>
+                    <th>mon</th>
+                    <th>dow</th>
+                    <th>command</th>
                 </tr>
             </thead>
             <tbody id="taskList" class="taskList">
             </tbody>
         </table>
-    </div>
+
     </div>
 
     <div id="get-input" class="content-section">
+        <h class="docker">Run any command in Docker Bash </h>
+        <pre></pre>
+        <h class="docker2">Every command starts a docker instance. In order to execute multiple commands use ";"</h>
         <div id="command">
             <input type="text" id="commandInput">
             <button class="button-78" onclick="runCommand()">Run Command</button>

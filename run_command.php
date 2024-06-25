@@ -25,4 +25,3 @@ if (isset($_GET['command'])) {
     http_response_code(400);
     echo "Command not specified";
 }
-?>

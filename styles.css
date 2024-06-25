@@ -2,7 +2,27 @@
     --gold: #384fff;
     --light-shadow: #1d1d77;
     --dark-shadow: #040c3e;
-  }
+}
+
+input {
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 12.5px;
+    border-radius: 12.5px;
+    margin-bottom: 12.5px;
+    border: 1px solid #e6e6e6;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    margin-bottom: 20px;
+    width: 100%;
+    margin: auto;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -12,25 +32,45 @@ body {
     margin: 20px;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(19, 19, 81, 1) 12%, rgba(9, 60, 104, 1) 25%, rgba(61, 111, 185, 1) 50%, rgba(20, 44, 109, 1) 75%, rgba(24, 24, 75, 1) 87%, rgba(23, 24, 92, 1) 100%);
-    color: #3065c6;
+    color: #3064c6;
+}
+
+.DeleteEnterID {
+    font-size: 18px;
+    width: 35%;
+}
+
+.deleteText
+{
+    font-size: 18px;
+    color: white;
+
+}
+
+.DeletePressButton {
+    font-size: 18px;
+    width:35%;
+    height: 50px;
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    margin-top: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.DeletePressButton:hover {
+    background-color: #532fd3;
 }
 
 th {
     background: hsla(235, 96%, 33%, 1);
-
     background: radial-gradient(circle, hsla(235, 96%, 33%, 1) 0%, hsla(217, 98%, 24%, 1) 58%, hsla(235, 74%, 26%, 1) 100%);
-
     background: -moz-radial-gradient(circle, hsla(235, 96%, 33%, 1) 0%, hsla(217, 98%, 24%, 1) 58%, hsla(235, 74%, 26%, 1) 100%);
-
     background: -webkit-radial-gradient(circle, hsla(235, 96%, 33%, 1) 0%, hsla(217, 98%, 24%, 1) 58%, hsla(235, 74%, 26%, 1) 100%);
 }
 
-.container {
-    width: 80%;
-    max-height: 60%;
-    overflow-y: scroll;
-    margin-top: 20px;
-}
 
 .content-section {
     display: none;
@@ -38,16 +78,20 @@ th {
 
 .content-section.active {
     display: block;
+    margin: auto;
     min-height: 600px;
     max-height: 600px;
     overflow-y: scroll;
 }
 
-table
-{
+table {
     border-radius: 10px;
 }
 
+.buttons {
+    margin-top: 10px;
+    width:auto;
+}
 
 pre {
     font-size: 24px;
@@ -108,26 +152,9 @@ pre {
     font-size: 24px;
 }
 
-input {
-    background: rgba(255, 255, 255, 0.2);
-    text-align: center;
-    padding: 12.5px;
-    border-radius: 12.5px;
-    margin-bottom: 12.5px;
-    border: 1px solid #e6e6e6;
-    height: 30px;
-    font-size: 20px;
-    font-weight: bold;
-}
 
 
-table {
-    margin-bottom: 20px;
-    width: 100%;
-    margin: auto;
-    table-layout: fixed;
-    border-collapse: collapse;
-}
+
 
 th,
 td {
@@ -185,7 +212,7 @@ tbody {
     font-weight: 800;
     justify-content: center;
     line-height: 24px;
-    min-height: 64px;
+    min-height: 52px;
     outline: none;
     overflow: visible;
     padding: 19px 26px;
@@ -467,8 +494,7 @@ table {
 
 }
 
-.between
-{
+.between {
     margin-top: 20px;
     margin-bottom: 20px;
 
@@ -485,12 +511,28 @@ table {
     box-shadow: 0 0 20px rgba(98, 0, 255, 0.5);
 }
 
+.docker {
+    color: #b1b8dd;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.docker2 {
+    margin-top: 10px;
+    color: #b1b8dd;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
 .neon-button {
     position: relative;
     width: 120px;
     height: 60px;
     border-radius: 30px;
     font-size: 18px;
+    overflow-x: scroll;
     color: #fff;
     background-color: #020617;
     border: 2px solid rgb(0, 81, 255);
@@ -545,10 +587,11 @@ table {
     display: grid;
     place-content: center;
     height: 75px;
-    margin:auto;
-  }
-  .wrapper > div {
-    background-clip: text;  
+    margin: auto;
+}
+
+.wrapper>div {
+    background-clip: text;
     -webkit-background-clip: text;
     color: #1a2b70;
     font-family: 'Poppins', sans-serif;
@@ -557,22 +600,24 @@ table {
     grid-area: overlap;
     letter-spacing: 1px;
     -webkit-text-stroke: 4px transparent;
-  }
-  div.bg {
-    background-image: repeating-linear-gradient( 105deg, 
-      var(--gold) 0% , 
-      var(--dark-shadow) 5%,
-      var(--gold) 12%);
+}
+
+div.bg {
+    background-image: repeating-linear-gradient(105deg,
+            var(--gold) 0%,
+            var(--dark-shadow) 5%,
+            var(--gold) 12%);
     color: transparent;
     filter: drop-shadow(5px 15px 15px rgb(20, 5, 67));
     transform: scaleY(1.05);
     transform-origin: top;
-  }
-  div.fg{
-    background-image: repeating-linear-gradient( 5deg,  
-      var(--gold) 0% , 
-      var(--light-shadow) 23%, 
-      var(--gold) 31%);
+}
+
+div.fg {
+    background-image: repeating-linear-gradient(5deg,
+            var(--gold) 0%,
+            var(--light-shadow) 23%,
+            var(--gold) 31%);
     color: #031539;
     transform: scale(1);
-  }
+}

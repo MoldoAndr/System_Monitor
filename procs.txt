@@ -1,17 +1,17 @@
-10398 2.31 3.50 code
-3756 0.72 1.32 gnome-shell
-1480132 0.58 0.05 python3
-5408 0.57 2.65 firefox
-10375 0.57 0.39 code
-4413 0.43 0.43 Xwayland
-607615 0.43 3.60 Isolated Web Co
-881 0.14 0.00 atopacctd
-1639 0.14 0.00 gfx_0.0.0
-3583 0.14 0.11 pulseaudio
-10312 0.14 0.74 code
-1173127 0.14 1.30 Isolated Web Co
-1476830 0.14 0.00 kworker/u32:4-events_unbound
-1478920 0.14 0.75 Isolated Web Co
+100653 1.02 2.51 code
+36118 0.73 1.82 firefox
+3818 0.44 1.31 gnome-shell
+2109530 0.44 0.38 nautilus
+2024979 0.29 0.47 Isolated Web Co
+2039777 0.29 0.05 python3
+2089 0.14 0.00 gfx_0.0.0
+4598 0.14 0.48 Xwayland
+100209 0.14 0.69 code
+100723 0.14 0.39 code
+100902 0.14 0.32 code
+126116 0.14 0.37 code
+2039762 0.14 0.07 php
+2098091 0.14 1.92 VirtualBoxVM
 1 0.00 0.04 systemd
 2 0.00 0.00 kthreadd
 3 0.00 0.00 rcu_gp

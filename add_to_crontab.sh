@@ -48,4 +48,5 @@ if [ "$#" -ne 1 ]; then
 fi
 input_command=$1
 input_datetime=$2
+
 add_to_crontab "$input_command" "$input_datetime"

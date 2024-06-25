@@ -1,25 +1,11 @@
 #!/bin/bash
 
 str=$(sudo dmidecode -t system | grep "System Information" --after-context=8 | tail -n +2 | head -n 3)
-result=$(echo "$str" | sed -E 's/([^:]) /\1_/g' | cut -d':' -f2 | tr '\n' ' ')
-echo "$result" >model
+result1=$(echo "$str" | sed -E 's/([^:]) /\1_/g' | cut -d':' -f2 | tr '\n' ' ')
+result2=$(cat /proc/version | grep "^.\{30\}" -o | tr ' ' '_' )
+result=$(echo "$result1 $result2" | tr '\n' ' ')
+echo "$result" > model
 
-get_screen_info()
-{
-xrandr_output=$(xrandr)
-xdpyinfo_output=$(xdpyinfo | grep dimensions)
-xwininfo_output=$(xwininfo -root | grep -E 'Width|Height|Depth')
-
-echo "Screen Information:"
-echo "$xrandr_output"
-echo
-echo "Screen Dimensions (xdpyinfo):"
-echo "$xdpyinfo_output"
-echo
-echo "Screen Dimensions (xwininfo):"
-echo "$xwininfo_output"
-
-}
 
 get_processor_info() {
 
