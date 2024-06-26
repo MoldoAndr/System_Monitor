@@ -4,7 +4,7 @@ if [ -f /shared/input/commands.txt ]; then
   while IFS= read -r command; do
 
     coproc {
-      sleep 1
+      sleep 1000
       kill -TERM 0
       poweroff
     }

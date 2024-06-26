@@ -1,8 +1,8 @@
-tmpfs           2,8G  6,7M  2,8G   1% /run
-/dev/nvme0n1p6  192G   54G  128G  30% /
-tmpfs            14G   33M   14G   1% /dev/shm
+tmpfs           2,8G  3,7M  2,8G   1% /run
+/dev/nvme0n1p6  192G   67G  115G  37% /
+tmpfs            14G     0   14G   0% /dev/shm
 tmpfs           5,0M  4,0K  5,0M   1% /run/lock
-efivarfs        326K  257K   64K  81% /sys/firmware/efi/efivars
+efivarfs        326K  259K   63K  81% /sys/firmware/efi/efivars
 tmpfs            14G     0   14G   0% /run/qemu
 /dev/nvme0n1p1   96M   40M   57M  42% /boot/efi
-tmpfs           2,8G  120K  2,8G   1% /run/user/1000
+tmpfs           2,8G  112K  2,8G   1% /run/user/1000

@@ -1,0 +1,2 @@
+[    1.835427]$usb 3-1: New USB device strings: Mfr=3, Product=1, SerialNumber=2
+[    2.737052]$ucsi_acpi: probe of USBC000:00 failed with error -5

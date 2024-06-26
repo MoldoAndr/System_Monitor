@@ -14,7 +14,10 @@ if [ "$taskId" -le 0 ] || [ "$taskId" -gt "${#lines[@]}" ]; then
 fi
 unset 'lines[taskId-1]'
 
-newCrontab=$(IFS=$'\n'; echo "${lines[*]}")
+newCrontab=$(
+    IFS=$'\n'
+    echo "${lines[*]}"
+)
 
 echo "$newCrontab" | crontab -
 

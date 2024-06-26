@@ -14,3 +14,4 @@ die:
 	sudo pkill -f update
 	sudo pkill -f python
 	sudo pkill -f usb_monitor
+	sudo pkill -f docker

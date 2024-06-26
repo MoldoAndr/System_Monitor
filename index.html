@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monitor</title>
+    <link rel="shortcut icon" href="#" />
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -96,6 +97,7 @@
                         <th>MODEL</th>
                         <th>FREQ</th>
                         <th>CORES</th>
+                        <th>MODE</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -217,10 +219,25 @@
 
 
         <div id="usb" class="content-section">
-            <h2>UBS Ports information:</h2>
+            <h2>UBS Ports Information</h2>
+            <table id="usbTable2">
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Device</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">Waiting for USB entries...</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>USB Ports Notifications</h2>
             <table id="usbTable">
                 <thead>
                     <tr>
+
                         <th>Action</th>
                         <th>Timestamp</th>
                     </tr>
@@ -231,6 +248,7 @@
                     </tr>
                 </tbody>
             </table>
+
         </div>
 
         <div id="usage" class="content-section" style="width: 120%;">

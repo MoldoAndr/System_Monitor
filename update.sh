@@ -2,10 +2,9 @@
 
 str=$(sudo dmidecode -t system | grep "System Information" --after-context=8 | tail -n +2 | head -n 3)
 result1=$(echo "$str" | sed -E 's/([^:]) /\1_/g' | cut -d':' -f2 | tr '\n' ' ')
-result2=$(cat /proc/version | grep "^.\{30\}" -o | tr ' ' '_' )
+result2=$(cat /proc/version | grep "^.\{30\}" -o | tr ' ' '_')
 result=$(echo "$result1 $result2" | tr '\n' ' ')
-echo "$result" > model
-
+echo "$result" >model
 
 get_processor_info() {
 
@@ -14,7 +13,8 @@ get_processor_info() {
     usage=$(top -bn1 | grep '%Cpu' | awk '{print $2 + $4}')
     freq=$(cat /proc/cpuinfo | grep MHz | grep --extended-regexp " [0-9]+" --only-matching | tr --delete ' ' | awk '{ total += $1; count++ } END { printf "%.2f\n", total / count }')
     cores=$(lscpu | grep "CPU(s)" | head -n 1 | cut -d ':' -f 2 | sed 's/^ *//')
-    echo $model $freq'MHz' $cores >cpu
+    power_mode=$(cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor | head -n 1)
+    echo $model $freq'MHz' $cores $power_mode >cpu
 }
 
 get_memory_info() {
@@ -26,8 +26,7 @@ get_memory_info() {
     echo $total_ram'GB' $mem_usage'%' $cached_mem'GB' $freq'MHz' >mem
 }
 
-get_brightness_info()
-{
+get_brightness_info() {
     interface=$(ls /sys/class/backlight/)
     brightness=$(cat /sys/class/backlight/$interface/brightness)
     max_brightness=$(cat /sys/class/backlight/$interface/max_brightness)
@@ -37,13 +36,22 @@ get_brightness_info()
 while true; do
 
     get_processor_info
-    
+
     get_brightness_info
 
     get_memory_info
 
     ports=$(netstat -tulne | tr -s ' ' | cut -d' ' -f 1,2,3,4,6 | sed -E 's/.*:([0-9]+)$/\1/' | grep -E "(^[^:]*:[^:]*)$")
     echo "$ports" >ports
+
+    usb_list=$(sudo dmesg | grep " USB" | tail -n 2)
+    message1=$(echo "$usb_list" | head -n 1 | sed -E 's/] /]$/')
+    message2=$(echo "$usb_list" | tail -n 1 | sed -E 's/] /]$/')
+
+    sudo lsusb -s 001: >usb_entries
+
+    echo "$message1" >usb
+    echo "$message2" >>usb
 
     partition_info=$(df -h --output=source,size,used,avail,pcent,target | awk 'NR>1')
     echo "$partition_info" >partition

@@ -18,13 +18,40 @@ async function fetchData(url, tableId) {
         let data = await response.text();
         if (tableId === 'procTable') {
             updateProcessTable(tableId, data);
-        } else {
-            updateTable(tableId, data);
+        } else if (tableId === 'usbTable2') {
+            updateUSBTable(tableId, data);
         }
+        else
+            updateTable(tableId, data);
     } catch (error) {
         console.error('Error fetching data:', error);
         document.getElementById(tableId).querySelector('tbody').innerHTML = '<tr><td colspan="6">Failed to load data</td></tr>';
     }
+}
+
+function updateUSBTable(tableId, data) {
+    let table = document.getElementById(tableId).querySelector('tbody');
+    table.innerHTML = '';
+    let rows = data.trim().split('\n');
+
+    rows.forEach(row => {
+        let columns;
+
+        if (tableId === 'usbTable2') {
+            columns = row.trim().split(/\$/);
+        } else {
+            columns = row.trim().split(/\s+/);
+        }
+
+        let htmlRow = '<tr>';
+
+        columns.forEach(column => {
+            htmlRow += `<td>${column.trim()}</td>`;
+        });
+
+        htmlRow += '</tr>';
+        table.innerHTML += htmlRow;
+    });
 }
 
 
@@ -42,8 +69,9 @@ async function fetchAllData() {
         await fetchData('network_usage', 'networkTable');
         await fetchData('ports', 'portsTable');
         await fetchData('battery_info', 'batteryTable');
-        await fetchTasks();
         await fetchData('brightness', 'brightnessTable');
+        await fetchData('usb', 'usbTable2');
+        await fetchTasks();
     } catch (error) {
         console.error('Error fetching all data:', error);
     }
